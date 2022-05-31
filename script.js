@@ -9,14 +9,3 @@ $('#view-donations').on('click', function() {
     900
   );
 });
-
-$('#view-datos').on('click', function() {
-    const datos = $('#datos').position().top;
-  
-    $('html, body').animate(
-      {
-        scrollTop: datos
-      },
-     900
-    );
-  });
